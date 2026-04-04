@@ -110,6 +110,7 @@
         "veryWeak": "Very Weak",
         "weak": "Weak",
         "wordList": "Word list",
+        "noPendingPasskeys": "No Pending Passkeys",
         "words": "Words"
     },
     "entryTypeTitles": {
@@ -205,6 +206,7 @@
             "removing": "Removing {{dbFileName}}",
             "reopen": "Reopen",
             "setupOtp": "Set up OTP",
+            "pendingPasskeys": "Pending Passkeys",
             "unlockDatabase": "Unlock database"
         },
         "texts": {
@@ -230,6 +232,9 @@
             "reopenAgain": "Please open the database file {{fileName}} again from its original location",
             "reopenNotOldRef": "The database could not be opened with the old reference",
             "reopenReadPermissionrequired": "Read permission is required again to load this database",
+            "pendingPasskeysMergeNeeded": "There are one or more pending passkeys and they need to be merged to the database",
+            "pendingPasskeysDisableWarning": "There are pending passkeys that have not been committed to the database. Please review them before disabling autofill.",
+            "pendingPasskeysMultiDb": "The following databases have pending passkeys. Open each database to review and save them.",
             "setupOtp": "You can set up TOTP by scanning a QR code or manually entering the secret or an OTPAuth url"
         }
     },
@@ -380,6 +385,9 @@
         "save": "Save",
         "scanQRcode": "Scan QR Code",
         "setUpOneTimePassword": "Set up One-Time Password",
+        "discard": "Discard",
+        "review": "Review",
+        "saveAll": "Save All",
         "yes": "Yes",
         "webdav": "WebDAV"
     },
